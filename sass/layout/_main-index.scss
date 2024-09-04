@@ -1,0 +1,180 @@
+/* poner el main del index.html */
+main {
+    background-color: #eee;
+    .articulos{
+        .filtroArticulos{
+                display: flex;
+                justify-content: center;
+                .filtro{
+                    margin: 1.25rem;
+                    width: 19rem;
+                    height: 15.625rem;
+                    border: 0.0625rem solid black;
+                    .filtroTitulo{
+                        margin-left: 1.875rem;
+                        margin-top: 0.625rem;
+                        text-decoration: underline;
+                    }
+                    ul{
+                        margin: 1.25rem;
+                        padding: 0.3125rem;
+                        list-style: none;
+                        li{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 0.3125rem;
+                            .botonDesplegar{
+                                width: 1.875rem;
+                                height: 1.875rem;
+                                border-radius: 0.3125rem;
+                                box-shadow: 0.1875rem 0.1875rem rgba(0, 0, 0, 0.105);
+                            }
+                            .precioMinMax{
+                                width: 3.75rem;
+                                height: 1.25rem;
+                                margin: 0 0.625rem 0 0.625rem;
+                                border: 0.0625rem solid black;
+                                border-radius: 0.3125rem;    
+                                box-shadow: 0.1875rem 0.1875rem rgba(0, 0, 0, 0.105);
+                            }
+                        }
+                    }
+            }
+            .articulosVenta{
+                margin-top: 15px;
+                .cadaArticuloVenta{
+                    list-style: none;
+                    padding: 0;
+                    display: grid;
+                    width: 100%;
+                    height: 880px;
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-areas: 
+                    "art-1 art-2 art-3"
+                    "art-4 art-5 art-6";
+                    li{
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        background-color: #ffffff;
+                        margin: 0.3125rem;
+                        height: 430px;
+                        width: 300px;
+                        border: 0.0625rem solid black;
+                        border-radius: 0.4375rem;
+                        box-shadow: 0.1875rem 0.1875rem rgba(0, 0, 0, 0.105);
+                        list-style: none;
+                        cursor: pointer;
+                        overflow: auto;
+                        &:hover{
+                            transform: scale(1.02);
+                        }
+                        .cardOferta{
+                            display: flex;
+                            color: white;
+                            background-color: red;
+                            margin-top: 30px;
+                            margin-left: -90px;
+                            width: 100%;
+                            font-size: large;
+                            font-weight: bold;
+                            justify-content: center;
+                            z-index: 1;
+                            transform: rotate(-45deg);
+                            align-self: self-start;
+                        }
+                        .imagenGuitarra {
+                            height: 200px;
+                            width: 200px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                        p{
+                            margin: 0.625rem;
+                            font-size: 15px;
+                            text-align: justify;
+                            cursor: text;
+                        }
+                        .precio{
+                            display: flex;
+                            width: 100%;
+                            justify-content: space-between;
+                            cursor: text;
+                        }
+                        .precioYEfectivo{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            margin: 10px;
+                            
+                            .precioTarjeta{
+                                margin: 0;
+                                text-decoration: line-through;
+                                color: grey;
+                            }
+                            h3{
+                                align-self: center;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                span{
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                        button{
+                            display: flex;
+                            align-items: center;
+                            align-self: center;
+                            width: 125px; 
+                            height: 50px;
+                            margin: 10px;
+                            background-color: black;
+                            border: 0.0625rem solid black;
+                            border-radius: 0.1875rem;
+                            font-size: 0.625rem;
+                            box-shadow: 0.1875rem 0.1875rem rgba(0, 0, 0, 0.105);
+                            color: white;
+                            cursor: pointer;
+                            p{
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    .art-1{
+                        grid-area: art-1;
+                    }
+                    .art-2{
+                        grid-area: art-2;
+                    }
+                    .art-3{
+                        grid-area: art-3;
+                    }
+                    .art-4{
+                        grid-area: art-4;
+                    }
+                    .art-5{
+                        grid-area: art-5;
+                    }
+                    .art-6{
+                        grid-area: art-6;
+                    }
+                }
+            }
+        }
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    }
+}

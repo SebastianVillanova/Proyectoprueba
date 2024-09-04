@@ -1,0 +1,28 @@
+/* primero se llama a todo lo que corresponde a utilities */
+
+/* segundo se llama a todo lo que corresponde a base */
+
+@import "./base/reset.scss";
+@import "./base/reset.scss";
+
+/* tercero se llama a todo lo que corresponde al layout */
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-carrito";
+@import "./layout/main-contacto";
+@import "./layout/main-iniciarSesion";
+@import "./layout/main-nosotros";
+
+/* cuarto se llama a todo lo que corresponde al components*/
+
+@import"./components/button";
+
+/* al final siempre se llama a todo lo que corresponde al media*/
+
+@import "./layout/media/media1295px.scss";
+@import "./layout/media/media900px.scss";
+@import "./layout/media/media850px.scss";
+@import "./layout/media/media515px.scss";
+

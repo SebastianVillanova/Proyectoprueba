@@ -1,0 +1,97 @@
+header {
+    background-color: black;
+    div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: black;
+        .logo{
+            height: 100%;
+            padding: 0 10px;
+            margin-left: 10%;
+            img{
+                width: 150px;
+                border: 0.0625rem solid black;
+                // border-radius: 0.1875rem;
+            }
+        }
+        .d-flex{
+            input{
+                display: flex;
+                margin: 0.3125rem;
+                width: 640px;
+                height: 38px;
+                // border-radius: 1.25rem;
+            }
+        }
+        .botonesHeader{
+            a{
+                display: flex;
+                justify-content: center;
+                margin: 0.625rem;
+                width: 6.25rem;
+                height: 3.75rem;
+                border-radius: 0.3125rem;
+                border: 0.0313rem solid #000;
+                box-shadow: 0.1875rem 0.1875rem rgba(0, 0, 0, 0.105);
+                text-decoration: none;
+                &:hover{
+                    border: 1px solid white;
+                }
+            }
+            div{
+                margin-right: 10px;
+                align-self: center;
+                height: 100%;
+                font-weight: bold;
+                color: white;
+                
+            }
+        }
+    }
+    #pruebaID{
+        visibility: hidden;
+    }
+ 
+}
+
+header .categorias{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    // margin-bottom: 30px;
+    div{
+        margin: 0;
+        padding: 0;
+        height: 80px;
+        width: 50%;
+        justify-content: space-around;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    button{
+        width: 7.5rem;
+        height: 3.125rem;
+        background-color: black;
+        border: 1px solid black;
+        box-shadow: none;
+        border-radius: 0.25rem;
+        margin: 0.1875rem;
+        font-size: 0.9375rem;
+        font-weight: 650;
+        transition: transform 0.5s ease;
+        &:hover{
+            background-color: black;
+            border: none;
+            transform: translate(0, -5px);
+            transition: transform 0.5s ease
+        }
+    }
+}
+

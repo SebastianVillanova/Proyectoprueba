@@ -1,0 +1,38 @@
+@media(max-width:515px){
+    
+    footer .marcas .contenedorMarcas{
+        height: 100px;
+        div{
+            div.carousel-inner{
+                width: 100px;
+                height: 100px; 
+                div{
+                    height: 100%;
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+    main .sectionContacto{
+        .contacto-general{
+            margin-top: 20px;
+        }
+        .completarForm{
+            width: 100%;
+            form{
+                align-items: center;
+                width: 100%;
+                input{
+                    width: 80%;
+                }
+                .inputTextoContacto{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+

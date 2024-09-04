@@ -1,0 +1,121 @@
+@media(max-width: 1295px){
+    header {
+        div .d-flex{
+            input{
+                width: 400px;
+            }
+        }
+        .botonesHeader{
+            display: flex;
+            flex-direction: column;
+            div{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+    main .articulos{
+        .filtroArticulos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        .articulosVenta {
+            ul.cadaArticuloVenta {
+                padding: 20px;
+                height: 1280px;
+                grid-template-rows: repeat(4, 1fr);
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas: 
+                "art-1 art-2"
+                "art-3 art-4"
+                "art-5 art-6";
+            }
+            
+        }
+    }
+            nav{
+                display: flex;
+                margin-top: 4.375rem;
+                flex-direction: column;
+                align-items: center;
+            }
+    }
+
+    main .sectionCarrito{
+        .carritoGeneral{
+            grid-template-rows: repeat(7, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "sec-1-1 sec-1-1 sec-1-3 "
+            "sec-2-1 sec-2-1 sec-2-3 "
+            "sec-2-1 sec-2-1 sec-3-3 "
+            "sec-4-1 sec-4-1 sec-4-3 "
+            "sec-5-1 sec-5-2 sec-5-3 "
+            "sec-6-1 sec-6-1 sec-6-3 "
+            "sec-7-1 sec-7-2 sec-7-3 ";
+            .sec-1-1{
+                grid-area: sec-1-1;
+            }
+            .sec-1-3{
+                grid-area: sec-1-3;
+                border-bottom: 1px solid black;
+            }
+            .sec-1-4{
+                grid-area: sec-3-3;
+                border-bottom: none;
+            }
+            .sec-1-5{
+                grid-area: sec-5-3;
+                border: none;
+            }
+            .sec-2-1{
+                grid-area: sec-2-1;
+            }
+            .sec-2-3{
+                grid-area: sec-2-3;
+                
+            }
+            .sec-2-4{
+                grid-area: sec-4-3;
+            }
+            .sec-2-5{
+                grid-area: sec-6-3;
+                
+            }
+            .sec-4-1{
+                grid-area: sec-4-1;
+                
+            }
+            .sec-5-1{
+                grid-area: sec-5-1;
+                
+            }
+            .sec-5-2{
+                grid-area: sec-5-2;
+                input{
+                    width: 50%;
+                }
+                button{
+                    width: 90px;
+                }
+            }
+            .sec-5-4{
+                grid-area: sec-7-1;
+                padding-left: 10px;
+                justify-content: start;
+            }
+            .sec-6-1{
+                grid-area: sec-6-1;
+                
+            }
+            .sec-6-4{
+                grid-area: sec-7-2;
+                border-radius: 0.625rem;
+            }
+            .sec-6-5{
+                grid-area: sec-7-3;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+/* codigo de botones */
+button {
+    border: 0;
+    color: #242424;
+    border-radius: 0.5em;
+    font-size: 1.35rem;
+    padding: 0.375em 1em;
+    font-weight: 600;
+    box-shadow: inset 0 0.0625em 0 0 #f4f4f4, 0 0.0625em 0 0 #efefef,
+        0 0.125em 0 0 #ececec, 0 0.25em 0 0 #e0e0e0, 0 0.3125em 0 0 #dedede,
+        0 0.375em 0 0 #dcdcdc, 0 0.425em 0 0 #cacaca, 0 0.425em 0.5em 0 #cecece;
+    transition: 0.15s ease;
+    cursor: pointer;
+
+}
+
+button:active {
+    translate: 0 0.225em;
+    box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef,
+        0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede,
+        0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #cacaca, 0 0.225em 0.375em 0 #cecece;
+}
+
+header .categorias button{
+        width: 7.5rem;
+        height: 3.125rem;
+        background-color: black;
+        border: 1px solid black;
+        box-shadow: none;
+        border-radius: 0.25rem;
+        margin: 0.1875rem;
+        font-size: 0.9375rem;
+        font-weight: 650;
+        transition: transform 0.5s ease;
+        &:hover{
+            background-color: black;
+            border: none;
+            transform: translate(0, -5px);
+            transition: transform 0.5s ease
+        }
+        &:active{
+            --bs-btn-active-bg: black;
+            --bs-btn-active-border-color: black;
+        }
+    }
+
+
+#teodio{
+    margin-left: 15px;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    box-shadow: none;
+    &:hover{
+    }
+    &:active{
+    }
+}

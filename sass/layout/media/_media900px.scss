@@ -1,0 +1,87 @@
+@media(max-width: 900px){
+    header {
+        div {
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .d-flex{
+                input{
+                    width: 300px;
+                }
+            }
+        }
+        .categorias {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 0;
+        }
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .marcas{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            .contenedorMarcas{
+                height: 150px;
+                div{
+                    div.carousel-inner{
+                        width: 150px;
+                        height: 150px;   
+                        div{
+                            img{
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            article{
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                border-bottom: 1px solid white;
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    }
+    
+    main .sectionContacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .contacto-general{
+            h1{
+                width: 18.75rem;    
+            }
+            form {
+                input{
+                    width: 90%;
+                }
+                .inputTextoContacto{
+                    height: 400px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}
