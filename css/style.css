@@ -467,7 +467,8 @@ main section .iniciarSesion {
         height: 3.125rem;
         border-radius: 0.625rem; }
       main section .iniciarSesion .login .botonesLogin .Ingresar {
-        background-color: #007bff; }
+        background-color: #007bff;
+        color: white; }
         main section .iniciarSesion .login .botonesLogin .Ingresar:hover {
           background-color: #2991ff; }
       main section .iniciarSesion .login .botonesLogin .Atras:hover {
@@ -523,7 +524,7 @@ header .categorias button {
   width: 7.5rem;
   height: 3.125rem;
   background-color: black;
-  border: 1px solid black;
+  border: 0.0625rem solid black;
   box-shadow: none;
   border-radius: 0.25rem;
   margin: 0.1875rem;
@@ -540,8 +541,8 @@ header .categorias button {
     --bs-btn-active-border-color: black; }
 
 #teodio {
-  margin-left: 15px;
-  border: 1px solid white;
+  margin-left: 0.9375rem;
+  border: 0.0625rem solid white;
   color: white;
   background-color: black;
   box-shadow: none; }
