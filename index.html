@@ -31,38 +31,42 @@
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                 <button class="btn btn-outline-success" id="teodio" type="submit">Buscar</button>
             </form>
-            <div class="botonesHeader">
-                <a href="./pages/iniciar-sesion.html">
-                    <div class="icono-iniciaSesion">
-                        <i class="fa-solid fa-right-to-bracket"></i>
+            <div class="botonesHeaderYNavBar">
+                
+                <div class="botonesHeader">
+                    <a href="./pages/iniciar-sesion.html">
+                        <div class="icono-iniciaSesion">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </div>
+                        <div class="botonISCarito">Inicia <br>Sesión</div>
+                    </a>
+                    <a href="./pages/carrito.html">
+                        <div class="icono-iniciaSesion">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="botonISCarito">Carrito</div>
+                    </a>
+                </div>
+                <div class="navbaricon">
+                    <button id="pruebaID" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Categorias</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                                <a href="#">GUITARRAS</a> 
+                                <a href="#">BAJOS</a>
+                                <a href="#">BATERIAS</a>
+                                <a href="#">SONIDOS</a>
+                                <a href="#">ACCESORIOS</a>
+                                <a href="#">OFERTAS</a>
+                        </div>
                     </div>
-                    <div class="botonISCarito">Inicia <br>Sesión</div>
-                </a>
-                <a href="./pages/carrito.html">
-                    <div class="icono-iniciaSesion">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                    <div class="botonISCarito">Carrito</div>
-                </a>
-                </Button>
+                </div>
             </div>
         </div>
         <!-- ------------- -->
-        <button id="pruebaID" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa fa-bars" aria-hidden="true"></i></button>
-        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Categorias</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                    <a href="#">GUITARRAS</a> 
-                    <a href="#">BAJOS</a>
-                    <a href="#">BATERIAS</a>
-                    <a href="#">SONIDOS</a>
-                    <a href="#">ACCESORIOS</a>
-                    <a href="#">OFERTAS</a>
-            </div>
-        </div>
         <div class="categorias">
             <div>
                 <button type="button" class="btn btn-primary">GUITARRAS</button>

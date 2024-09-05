@@ -15,49 +15,64 @@
                     width: 80%;
                 }
             }
-        } 
-        #pruebaID{
-            visibility: visible;
-            background-color: white;
-            border: none;
-            box-shadow: none;
-            color: black;
-        }
-        .offcanvas, .offcanvas-start{
-            .offcanvas-header{
+            .botonesHeaderYNavBar{
                 display: flex;
-                flex-direction: row;
-                padding-bottom: 0;
-                padding-top: 0;
-                background-color: white;
-                height: 100px;
-                border-bottom: 1px solid black;
-                h5{
-                    border-bottom: 1px solid black;
+                flex-direction: row-reverse;
+                width: 100%;
+                justify-content: space-evenly;
+                .botonesHeader{
+                    flex-direction: row;
+                    width: 300px;
+
                 }
-                button{
-                    align-self: center;
-                    justify-self: center;
-                    box-shadow: none;
+                .navbaricon{
+                    width: 36px;
+                    #pruebaID{
+                        visibility: visible;
+                        background-color: white;
+                        border: none;
+                        box-shadow: none;
+                        color: black;
+                    }
+                    .offcanvas, .offcanvas-start{
+                        .offcanvas-header{
+                            display: flex;
+                            flex-direction: row;
+                            padding-bottom: 0;
+                            padding-top: 0;
+                            background-color: white;
+                            height: 100px;
+                            border-bottom: 1px solid black;
+                            h5{
+                                border-bottom: 1px solid black;
+                            }
+                            button{
+                                align-self: center;
+                                justify-self: center;
+                                box-shadow: none;
+                            }
+                        }
+                        .offcanvas-body{
+                            display: flex;
+                            align-items: start;
+                            justify-content: start;
+                            background-color: white;
+                            a{
+                                margin: 10px 0;
+                                background-color: white;
+                                color: black;
+                                border: none;
+                                box-shadow: none;
+                                text-decoration: none;
+                            }
+                        }
+                    }
                 }
-            }
-            .offcanvas-body{
-                display: flex;
-                align-items: start;
-                justify-content: start;
-                background-color: white;
-                a{
-                    margin: 10px 0;
-                    background-color: white;
-                    color: black;
-                    border: none;
-                    box-shadow: none;
-                    text-decoration: none;
-                }
-            }
+            } 
         }
         .categorias{
             visibility: hidden;
+            height: 1px;
             // height: 12.5rem;
             // div{
             //     display: flex;
