@@ -703,32 +703,34 @@ header .categorias button {
           border: none;
           box-shadow: none;
           color: black; }
-        header div .botonesHeaderYNavBar .navbaricon .offcanvas .offcanvas-header, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start .offcanvas-header {
-          display: flex;
-          flex-direction: row;
-          padding-bottom: 0;
-          padding-top: 0;
-          background-color: white;
-          height: 100px;
-          border-bottom: 1px solid black; }
-          header div .botonesHeaderYNavBar .navbaricon .offcanvas .offcanvas-header h5, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start .offcanvas-header h5 {
-            border-bottom: 1px solid black; }
-          header div .botonesHeaderYNavBar .navbaricon .offcanvas .offcanvas-header button, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start .offcanvas-header button {
-            align-self: center;
-            justify-self: center;
-            box-shadow: none; }
-        header div .botonesHeaderYNavBar .navbaricon .offcanvas .offcanvas-body, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start .offcanvas-body {
-          display: flex;
-          align-items: start;
-          justify-content: start;
-          background-color: white; }
-          header div .botonesHeaderYNavBar .navbaricon .offcanvas .offcanvas-body a, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start .offcanvas-body a {
-            margin: 10px 0;
+        header div .botonesHeaderYNavBar .navbaricon .offcanvas, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start {
+          width: 75%; }
+          header div .botonesHeaderYNavBar .navbaricon .offcanvas .offcanvas-header, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start .offcanvas-header {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 0;
+            padding-top: 0;
             background-color: white;
-            color: black;
-            border: none;
-            box-shadow: none;
-            text-decoration: none; }
+            height: 100px;
+            border-bottom: 1px solid black; }
+            header div .botonesHeaderYNavBar .navbaricon .offcanvas .offcanvas-header h5, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start .offcanvas-header h5 {
+              border-bottom: 1px solid black; }
+            header div .botonesHeaderYNavBar .navbaricon .offcanvas .offcanvas-header button, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start .offcanvas-header button {
+              align-self: center;
+              justify-self: center;
+              box-shadow: none; }
+          header div .botonesHeaderYNavBar .navbaricon .offcanvas .offcanvas-body, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start .offcanvas-body {
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            background-color: white; }
+            header div .botonesHeaderYNavBar .navbaricon .offcanvas .offcanvas-body a, header div .botonesHeaderYNavBar .navbaricon .offcanvas-start .offcanvas-body a {
+              margin: 10px 0;
+              background-color: white;
+              color: black;
+              border: none;
+              box-shadow: none;
+              text-decoration: none; }
   header .categorias {
     visibility: hidden;
     height: 1px; }
