@@ -13,6 +13,7 @@ button {
     cursor: pointer;
 }
 
+
 button:active {
     translate: 0 0.225em;
     box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef,
@@ -21,27 +22,27 @@ button:active {
 }
 
 header .categorias button{
-        width: 7.5rem;
-        height: 3.125rem;
+    width: 7.5rem;
+    height: 3.125rem;
+    background-color: black;
+    border: 0.0625rem solid black;
+    box-shadow: none;
+    border-radius: 0.25rem;
+    margin: 0.1875rem;
+    font-size: 0.9375rem;
+    font-weight: 650;
+    transition: transform 0.5s ease;
+    &:hover{
         background-color: black;
-        border: 0.0625rem solid black;
-        box-shadow: none;
-        border-radius: 0.25rem;
-        margin: 0.1875rem;
-        font-size: 0.9375rem;
-        font-weight: 650;
-        transition: transform 0.5s ease;
-        &:hover{
-            background-color: black;
-            border: none;
-            transform: translate(0, -5px);
-            transition: transform 0.5s ease
-        }
-        &:active{
-            --bs-btn-active-bg: black;
-            --bs-btn-active-border-color: black;
-        }
+        border: none;
+        transform: translate(0, -5px);
+        transition: transform 0.5s ease
     }
+    &:active{
+        --bs-btn-active-bg: black;
+        --bs-btn-active-border-color: black;
+    }
+}
 
 
 #teodio{

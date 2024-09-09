@@ -398,7 +398,7 @@ main .sectionContacto {
       display: flex;
       flex-direction: column;
       width: 445px;
-      margin-left: 10px;
+      margin-left: 0.625rem;
       padding: 0.625rem;
       justify-content: flex-start;
       align-items: start; }
@@ -863,7 +863,8 @@ header .categorias button {
     width: 100%; }
     main .sectionContacto .completarForm form {
       align-items: center;
-      width: 100%; }
+      width: 100%;
+      margin: 0; }
       main .sectionContacto .completarForm form input {
         width: 80%; }
       main .sectionContacto .completarForm form .inputTextoContacto {
